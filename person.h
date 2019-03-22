@@ -1,3 +1,5 @@
+//Adam Laviguer
+//Section 02
 //begin person.h
 #ifndef PERSON_H
 #define PERSON_H
@@ -12,7 +14,7 @@ private:
     float  payRate;
     float  hoursWorked;
 public:
-    Person();
+    Person(string firstName, string lastName, float payRate, float hoursWorked);
     void setLastName(string lName);
     string getLastName();
     void setFirstName(string fName);

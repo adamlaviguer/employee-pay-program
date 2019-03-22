@@ -1,6 +1,12 @@
+//Adam Laviguer
+//Section 02
 #include "person.h"
-Person::Person() {
-
+Person::Person(string firstName, string lastName, float payRate, float hoursWorked) {
+    setLastName(lastName);
+    setFirstName(firstName);
+    setPayRate(payRate);
+    setHoursWorked(hoursWorked);
+    
 }
 void Person::setLastName(string lName) {
     lastName=lName;
